@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" tools:context="ar.edu.eestn1ee.www.nuni.MenuComenzar">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ar.edu.eestn1ee.www.nuni.MenuComenzar"
+    android:gravity="center"
+    android:orientation="vertical">
 
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:text="Hello World!" app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nuni!"
+        android:textSize="128sp"
+        android:textStyle="bold"
+         />
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/btnKotlin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="K O T L I N"
+        android:textSize="18sp"
+        android:layout_marginTop="36dp"/>
+
+    <Button
+        android:id="@+id/btnJava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="J A V A"
+        android:textSize="18sp"
+        android:layout_marginTop="36dp"/>
+
+</LinearLayout>
